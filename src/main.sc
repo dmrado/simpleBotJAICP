@@ -20,7 +20,7 @@ theme: /
 
     state: WhatYouCanDo
         intent!: /Что ты умеешь?
-        a: Умею не много
+        a: Умею не много, говорить "привет привет" и "пока пока"
 
     state: NoMatch_01
         event!: noMatch
