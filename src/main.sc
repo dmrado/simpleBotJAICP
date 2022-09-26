@@ -28,7 +28,8 @@ theme: /
             a: Не понимаю, это что такое: {{$request.query}}.
             a: Извините, я ваше "{{$request.query}}" не понял.
         intent!: /Что ты можешь? || onlyThisState = false, toState = "/WhatCanIDo"
-
+#  onlyThisState = false переход из любого стейта в "/WhatCanIDo", а не только из этого стейта
+    
     # state: NoMatch
     #     event!: noMatch
     #     a: Я не понял. Вы сказали: {{$request.query}}
