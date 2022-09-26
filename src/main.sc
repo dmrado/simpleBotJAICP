@@ -39,7 +39,7 @@ theme: /
         a: Умею не много, я пока учусь.
         
     state: AskMe_02
-        q!: * научился *
+        q!: научился?
         state: /help/WhatCanIDo
     
     state: WhatCanIDo
