@@ -22,9 +22,10 @@ theme: /
     state: NoMatch_01
         event!: noMatch
         random: 
-            a: Что-то не понятно, простите.
-            a: Не понимаю, извините.
-            a: Извините, я не понял.
+            a: Я не понял. Вы сказали: {{$request.query}}
+            a: Что-то не понятно, простите {{$request.query}} что это?.
+            a: Не понимаю, это что такое: {{$request.query}}?.
+            a: Извините, я ваше "{{$request.query}}" не понял.
             intent: /Что ты можешь? || onlyThisState = false, toState = "/WhatYouCanDo"
 
     # state: NoMatch
