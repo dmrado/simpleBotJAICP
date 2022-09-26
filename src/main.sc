@@ -32,7 +32,7 @@ theme: /
     #     event!: noMatch
     #     a: Я не понял. Вы сказали: {{$request.query}}
     
-theme: /help
+# theme: /help
     
     state: AskMe_01
         q!: Что ты умеешь?
