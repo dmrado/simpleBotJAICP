@@ -18,10 +18,7 @@ theme: /
         event!: match
         a: {{$context.intent.answer}}
 
-    state: WhatYouCanDo
-        intent!: /Что ты умеешь?
-        a: Умею не много, говорить "привет привет" и "пока пока"
-
+ 
     state: NoMatch_01
         event!: noMatch
         a: Извините, я не понял.
@@ -30,3 +27,16 @@ theme: /
     # state: NoMatch
     #     event!: noMatch
     #     a: Я не понял. Вы сказали: {{$request.query}}
+    
+theme: /help
+    
+    state: AskMe_01
+        q: Что ты умеешь?
+        a: Умею не много, я пока учусь.
+        state: /help/WhatCanIDo
+    
+    state: WhatCanIDo
+        a: Научился говорить: "привет привет" и "пока пока"
+        state: /Start
+
+
