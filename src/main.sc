@@ -38,8 +38,8 @@ theme: /
         q!: Что ты умеешь?
         a: Умею не много, я пока учусь.
         
-    state: AskMe_02
-        q!: научился?
+    # state: AskMe_02
+    #     q!: научился?
         state: /help/WhatCanIDo
     
     state: WhatCanIDo
