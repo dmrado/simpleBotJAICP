@@ -25,7 +25,7 @@ theme: /
     state: NoMatch_01
         event!: noMatch
         a: Извините, я не понял.
-        intent: /WhatYouCanDo || onlyThisState = false, toState = "/WhatYouCanDo"
+        intent: /Что ты можешь? || onlyThisState = false, toState = "/WhatYouCanDo"
 
     # state: NoMatch
     #     event!: noMatch
