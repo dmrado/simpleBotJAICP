@@ -37,6 +37,6 @@ theme: /help
     
     state: WhatCanIDo
         a: Научился говорить: "привет привет" и "пока пока"
-        state: /Start
+        intent: /Что ты можешь?
 
 
