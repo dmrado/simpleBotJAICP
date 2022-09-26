@@ -37,6 +37,7 @@ theme: /help
     state: AskMe_01
         q!: Что ты умеешь?
         a: Умею не много, я пока учусь.
+        a: * научился *?
         state: /help/WhatCanIDo
     
     state: WhatCanIDo
