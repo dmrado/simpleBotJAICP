@@ -17,11 +17,16 @@ theme: /
     state: Match
         event!: match
         a: {{$context.intent.answer}}
-        
+
     state: WhatYouCanDo
         intent!: /Что ты умеешь?
         a: Умею не много
-        
+
+    state: NoMatch_01
+        event!: noMatch
+        a: Извините, я не понял.
+        intent: /Что ты можешь? || onlyThisState = false, toState = "/WhatYouCanDo"
+
     # state: NoMatch
     #     event!: noMatch
     #     a: Я не понял. Вы сказали: {{$request.query}}

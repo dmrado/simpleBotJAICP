@@ -39,6 +39,17 @@
       "refs" : [ ]
     },
     "priority" : 0
+  }, {
+    "id" : 12671817,
+    "path" : "/Что ты можешь?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
   } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
