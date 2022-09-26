@@ -21,8 +21,11 @@ theme: /
  
     state: NoMatch_01
         event!: noMatch
-        a: Извините, я не понял.
-        intent: /Что ты можешь? || onlyThisState = false, toState = "/WhatYouCanDo"
+        random: 
+            a: Что-то не понятно, простите.
+            a: Не понимаю, извините.
+            a: Извините, я не понял.
+            intent: /Что ты можешь? || onlyThisState = false, toState = "/WhatYouCanDo"
 
     # state: NoMatch
     #     event!: noMatch
